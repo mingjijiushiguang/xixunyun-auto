@@ -14,10 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       # 使用 node:10
-      - name: use Node.js 16.x
+      - name: use Node.js 10.x
         uses: actions/setup-node@v2
         with:
-          node-version: 16.x
+          node-version: 10.x
       # npm install
       - name: 签到日志
         env:
